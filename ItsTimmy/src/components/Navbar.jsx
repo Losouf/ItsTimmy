@@ -16,10 +16,6 @@ const Navbar = () => {
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
-
-        <div class="section-center">
-            <h1 class="mb-0">Pure CSS Menu</h1>
-        </div>
     </>
   );
 };
