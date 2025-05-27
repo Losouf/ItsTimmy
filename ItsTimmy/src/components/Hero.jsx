@@ -3,7 +3,7 @@ import './Hero.css';
 
 const Hero = () => {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id='Accueil'>
         <video className="hero-video" autoPlay muted loop playsInline>
             <source src="/videos/FondHero.mp4" type="video/mp4" />
             Your browser does not support the video tag.

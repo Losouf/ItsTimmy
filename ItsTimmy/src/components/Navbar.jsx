@@ -23,9 +23,9 @@ const Navbar = () => {
   }, []);
 
   return (
-    <section id="Accueil">
-      <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon"/>
-      <label for="menu-icon"></label>
+    <section>
+      <input className="menu-icon" type="checkbox" id="menu-icon" name="menu-icon" tabIndex="-1"/>
+      <label htmlFor="menu-icon"></label>
       <nav className="nav"> 		
           <ul>
               <li><a href="#Accueil">Accueil</a></li>
