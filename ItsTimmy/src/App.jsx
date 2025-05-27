@@ -4,16 +4,19 @@ import timmyLogo from '/images/Timmy.png'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+import Navbar from './components/Navbar';
+
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+    <Navbar />
       <div>
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
-        <a href="https://react.dev" target="_blank">
+        <a target="_blank">
           <img src={timmyLogo} className="logo" alt="Timmy logo" />
         </a>
         <a href="https://react.dev" target="_blank">
