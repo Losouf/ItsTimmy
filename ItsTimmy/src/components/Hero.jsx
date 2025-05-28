@@ -1,11 +1,13 @@
 import React from 'react';
 import './Hero.css';
 
+import fondHero from '../assets/videos/FondHero.mp4';
+
 const Hero = () => {
   return (
     <section className="hero-section" id='Accueil'>
         <video className="hero-video" autoPlay muted loop playsInline>
-            <source src="/videos/FondHero.mp4" type="video/mp4" />
+            <source src={fondHero} type="video/mp4" />
             Your browser does not support the video tag.
         </video>
 
