@@ -12,9 +12,9 @@ const Hero = () => {
         <div className="hero-overlay"></div>
 
         <div className="container hero-content">
-            <h1 className="hero-title">ItsTommy !</h1>
+            <h1 className="hero-title">ItsTimmy !</h1>
             <p className="hero-subtitle">Boostez votre image en ligne avec des solutions sur-mesure.</p>
-            <a href="#" className="btn-a-propos">À propos de Tommy</a>
+            <a href="#" className="btn-a-propos">À propos de Timmy</a>
         </div>
     </section>
   );

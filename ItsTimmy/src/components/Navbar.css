@@ -2,6 +2,7 @@
 [type="checkbox"]:not(:checked){
   position: absolute;
   left: -9999px;
+  display: none;
 }
 .menu-icon:checked + label,
 .menu-icon:not(:checked) + label{
@@ -184,7 +185,7 @@
   margin-top: -1vh;
   width: 0;
   left: 0;
-  background-color: #CC4D00;
+  background-color: #ff6000;
   opacity: 0.8;
   transition: width 250ms linear;
 }
