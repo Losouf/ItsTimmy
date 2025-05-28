@@ -89,7 +89,7 @@ input, textarea {
     border-radius: 8px;
     font-size: 1rem;
     background-color: transparent;
-    transition: border 0.2s ease;
+    transition: all 0.2s ease;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -97,12 +97,21 @@ input:focus,
 textarea:focus {
     outline: none;
     border-color: #ff6000;
+    box-shadow: 0 0px 10px rgba(255, 87, 51, 0.2);
 }
 
 textarea {
     min-height: 150px;
     resize: vertical;
 }
+
+input:-webkit-autofill {
+  background-color: transparent !important;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: black !important;
+}
+
+
 
 button[type="submit"] {
     background-color: #ff6000;

@@ -14,7 +14,7 @@ const Hero = () => {
         <div className="container hero-content">
             <h1 className="hero-title">ItsTimmy !</h1>
             <p className="hero-subtitle">Boostez votre image en ligne avec des solutions sur-mesure.</p>
-            <a href="#" className="btn-a-propos">À propos de Timmy</a>
+            <a href="#APropos" className="btn-a-propos">À propos de Timmy</a>
         </div>
     </section>
   );

@@ -34,10 +34,11 @@ const Contact = () => {
                 </div>
 
                 <div className="form-row">
-                    <input type="text" placeholder="Votre nom" />
-                    <input type="email" placeholder="Votre email" />
-                    <input type="tel" placeholder="Votre téléphone" />
-                </div>
+  <input type="text" name="name" placeholder="Votre nom" autoComplete="name" />
+  <input type="email" name="email" placeholder="Votre email" autoComplete="email" />
+  <input type="tel" name="phone" placeholder="Votre téléphone" autoComplete="tel" />
+</div>
+
                 <input type="text" placeholder="Sujet du mail" />
                 <textarea placeholder="Votre message" />
 
