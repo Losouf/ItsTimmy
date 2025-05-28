@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import './About.css';
 
+import loris from '../assets/images/loris.png';
+
 const teamMembers = [
   {
-    name: "Emily Kim",
-    role: "Founder",
-    img: "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?q=80&w=3687&auto=format&fit=crop"
+    name: "Loris Vernet",
+    role: "Co-Fondateur",
+    img: loris
   },
   {
     name: "Michael Steward",

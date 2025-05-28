@@ -1,38 +1,56 @@
 import React from 'react';
 import './Services.css';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
+
 const offers = [
   {
-    title: 'Base',
-    subtitle: 'Pour les petits bugets mais les grand projets',
+    title: 'Essentielle',
+    subtitle: 'Offrez à votre activité une vitrine claire et accessible dès maintenant.',
     price: '€',
     features: [
-      'Maquettage',
-      'Développement',
-      'Déploiement',
-      'Contrat de maintenance',
+      { label: 'Site vitrine', included: true },
+      { label: 'Développement sur mesure', included: true },
+      { label: 'Responsive', included: true },
+      { label: 'Design personnalisé', included: true },
+      { label: 'Référencement SEO', included: true },
+      { label: 'Assistance technique', included: true },
+      { label: 'Interface administrateur', included: false },
+      { label: 'Multi-langue', included: false },
+      { label: 'Analytics et suivi', included: false }
     ],
   },
   {
-    title: 'Base',
-    subtitle: 'Pour les bugets moyens et les grand projets',
+    title: 'Professionnel',
+    subtitle: 'Un site complet et élégant pour inspirer confiance à vos clients.',
     price: '€€',
     features: [
-      'Maquettage',
-      'Développement',
-      'Déploiement',
-      'Contrat de maintenance',
+      { label: 'Site vitrine', included: true },
+      { label: 'Développement sur mesure', included: true },
+      { label: 'Responsive', included: true },
+      { label: 'Design personnalisé', included: true },
+      { label: 'Référencement SEO', included: true },
+      { label: 'Assistance technique', included: true },
+      { label: 'Interface administrateur', included: false },
+      { label: 'Multi-langue', included: true },
+      { label: 'Analytics et suivi', included: false }
     ],
   },  
   {
-    title: 'Base',
-    subtitle: 'Pour les grands bugets et les grand projets',
+    title: 'Premium',
+    subtitle: 'Un site sur-mesure, évolutif et optimisé pour booster votre business.',
     price: '€€€',
     features: [
-      'Maquettage',
-      'Développement',
-      'Déploiement',
-      'Contrat de maintenance',
+      { label: 'Site vitrine', included: true },
+      { label: 'Développement sur mesure', included: true },
+      { label: 'Responsive', included: true },
+      { label: 'Design personnalisé', included: true },
+      { label: 'Référencement SEO', included: true },
+      { label: 'Assistance technique', included: true },
+      { label: 'Interface administrateur', included: true },
+      { label: 'Multi-langue', included: true },
+      { label: 'Analytics et suivi', included: true }
     ],
   },
 ];
@@ -51,9 +69,12 @@ const Services = () => {
                 </div>
                 
                 <ul className="card-features">
-                    {offer.features.map((f, j) => (
-                        <li key={j}>{f}</li>
-                    ))}
+                  {offer.features.map((feature, j) => (
+                    <li key={j} className={feature.included ? 'included' : 'excluded'}>
+                      <FontAwesomeIcon icon={feature.included ? faCheck : faTimes} className="feature-icon" />
+                      <span>{feature.label}</span>
+                    </li>
+                  ))}
                 </ul>
 
                 <button className="card-btn">Faire un devis</button>
