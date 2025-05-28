@@ -1,0 +1,100 @@
+.footer {
+  background-color: #f6f6f6;
+  color: #000;
+  padding: 3rem 2rem;
+ box-shadow: 0 -5px 40px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-evenly; 
+  gap: 4rem;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.footer-brand h3 {
+  font-size: 1.8rem;
+  color: #ff6000;
+  margin-bottom: 0.5rem;
+}
+
+.footer-brand p {
+  font-size: 0.95rem;
+  color: #000;
+}
+
+.footer-links h4,
+.footer-social h4 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+  color: #000;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  display: inline-block;
+  transition: color 0.2s;
+}
+
+.footer-links a:hover {
+  color: #ff6000;
+}
+
+.footer-links a:active {
+  transform: scale(0.95);
+}
+
+.social-icons a {
+  color: #333;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.social-icons a:hover {
+  color: #ff6000;
+}
+
+.social-icons a:active {
+  transform: scale(0.95);
+}
+
+.footer-bottom {
+  border-top: 1px solid #ccc;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.footer-bottom a {
+  color: #ff6000;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  display: inline-block;
+  transition: all 0.2s;
+}
+
+.footer-bottom a:hover {
+  text-decoration-color: #ff6000;
+}
+
+.footer-bottom a:active {
+  transform: scale(0.95);
+}

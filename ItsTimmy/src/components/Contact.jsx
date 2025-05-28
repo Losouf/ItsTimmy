@@ -21,7 +21,7 @@ const Contact = () => {
                 <div className="service-select">
                     <h3>Quel service souhaitez-vous ?</h3>
                     <div className="service-options">
-                        {["Site vitrine", "Application mobile", "E-commerce", "Application sur mesure", "Autre"].map((service, index) => (
+                        {["Site Web","Application Desktop", "Application Mobile", "Autre"].map((service, index) => (
                         <button
                             key={index}
                             type="button"

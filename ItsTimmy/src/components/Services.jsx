@@ -11,7 +11,6 @@ const offers = [
     price: '€',
     features: [
       { label: 'Site vitrine', included: true },
-      { label: 'Développement sur mesure', included: true },
       { label: 'Responsive', included: true },
       { label: 'Design personnalisé', included: true },
       { label: 'Référencement SEO', included: true },
@@ -27,7 +26,6 @@ const offers = [
     price: '€€',
     features: [
       { label: 'Site vitrine', included: true },
-      { label: 'Développement sur mesure', included: true },
       { label: 'Responsive', included: true },
       { label: 'Design personnalisé', included: true },
       { label: 'Référencement SEO', included: true },
@@ -43,7 +41,6 @@ const offers = [
     price: '€€€',
     features: [
       { label: 'Site vitrine', included: true },
-      { label: 'Développement sur mesure', included: true },
       { label: 'Responsive', included: true },
       { label: 'Design personnalisé', included: true },
       { label: 'Référencement SEO', included: true },

@@ -130,3 +130,7 @@ button[type="submit"]:hover {
     background-color: transparent;
     color: #ff6000;
 }
+
+button[type="submit"]:active {
+    transform: scale(0.95);
+}
