@@ -40,7 +40,7 @@ const offers = [
 const Services = () => {
   return (
     <section className="services-section" id='Services'>
-        <h2 className="services-title">Nos Offres - Web</h2>
+        <h2 className="services-title">Nos Services - Web</h2>
         <div className="services-container">
             {offers.map((offer, i) => (
             <div className="card" key={i}>
@@ -56,7 +56,7 @@ const Services = () => {
                     ))}
                 </ul>
 
-                <button className="card-btn">Commander</button>
+                <button className="card-btn">Faire un devis</button>
             </div>
             ))}
         </div>
