@@ -57,7 +57,7 @@ const About = () => {
   return (
     <section className="about-section" id='APropos'>
       <h2 className="about-title">QUI SOMME NOUS ?</h2>
-      <p className='about-description'>Timmy est une startup fondée par deux étudiants en développement informatique, avec une mission : accompagner les entreprises dans leur transition numérique.
+      <p className='about-description'>Timmy est une entreprise fondée par deux étudiants en développement informatique, avec une mission : accompagner les entreprises dans leur transition numérique.
         <br/>Nous aidons les professionnels à renforcer leur image en ligne et à moderniser leurs outils grâce à des solutions simples, efficaces et adaptées.
         <br/>Chez Timmy, on mise sur la proximité, la réactivité et l’expertise pour proposer un numérique accessible à tous.</p>
       <div className="carousel-container">

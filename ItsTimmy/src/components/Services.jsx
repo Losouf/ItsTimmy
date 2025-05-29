@@ -6,7 +6,7 @@ import { faCheck, faTimes } from '@fortawesome/free-solid-svg-icons';
 
 const offers = [
   {
-    title: 'Essentielle',
+    title: 'Essentiel',
     subtitle: 'Offrez à votre activité une vitrine claire et accessible dès maintenant.',
     price: '€',
     features: [
