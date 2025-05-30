@@ -16,7 +16,8 @@ const offers = [
       { label: 'Référencement SEO', included: true },
       { label: 'Assistance technique', included: true },
       { label: 'Interface administrateur', included: false },
-      { label: 'Multi-langue', included: false },
+      { label: 'Sauvegardes', included: true },
+      { label: 'Multi-langues', included: false },
       { label: 'Analytics et suivi', included: false }
     ],
   },
@@ -31,7 +32,8 @@ const offers = [
       { label: 'Référencement SEO', included: true },
       { label: 'Assistance technique', included: true },
       { label: 'Interface administrateur', included: false },
-      { label: 'Multi-langue', included: true },
+      { label: 'Sauvegardes', included: true },
+      { label: 'Multi-langues', included: true },
       { label: 'Analytics et suivi', included: false }
     ],
   },  
@@ -46,7 +48,8 @@ const offers = [
       { label: 'Référencement SEO', included: true },
       { label: 'Assistance technique', included: true },
       { label: 'Interface administrateur', included: true },
-      { label: 'Multi-langue', included: true },
+      { label: 'Sauvegardes', included: true },
+      { label: 'Multi-langues', included: true },
       { label: 'Analytics et suivi', included: true }
     ],
   },
